@@ -24,6 +24,8 @@ public class TaskConverter {
                 .description(task.getDescription())
                 .priority(task.getPriority().name())
                 .createdAt(task.getCreatedAt())
+                .editedAt(task.getEditedAt())
+                .completedAt(task.getCompletedAt())
                 .build();
     }
 }

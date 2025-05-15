@@ -5,5 +5,5 @@ import lombok.Builder;
 import java.time.LocalDateTime;
 
 @Builder
-public record TaskResponse(Long id, String description, String priority, LocalDateTime createdAt) {
+public record TaskResponse(Long id, String description, String priority, LocalDateTime createdAt, LocalDateTime editedAt, LocalDateTime completedAt) {
 }
